@@ -3,14 +3,14 @@
 things = {"pencil", "pencil", "pencil", "eraser", "spoon"}
 foods = {"burger", "hotdog", "pizza", "spoon"}
 
-# things.add("fork")
-# things.remove("spoon")
-# things.clear()
-# things.update(foods)
-# combine = things.union(foods)
+things.add("fork")
+things.remove("spoon")
+things.clear()
+things.update(foods)
+combine = things.union(foods)
 
-# print(things.difference(foods))
-# print(things.intersection(foods))
+print(things.difference(foods))
+print(things.intersection(foods))
 
-# for x in combine:
-#     print(x)
+for x in combine:
+    print(x)
