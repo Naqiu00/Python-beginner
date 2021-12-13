@@ -35,6 +35,9 @@ y.start()
 z = threading.Thread(target=study, args=())
 z.start()
 
+v = threading.Thread(target=print, args=())
+v.start()
+
 x.join()
 y.join()
 z.join()
